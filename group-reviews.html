@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>User Profile</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <main>
+        <div class="upper-background">
+            <div class="container"> <!--  style="border: 1px solid red" -->
+                <div class="cover">
+                    <img src="media/group/cover.jpg" alt="">
+
+                    <div class="detail flex-between">
+                        <div class="info flex">
+                            <img src="media/profile1.jpg" alt="">
+                            <p class="name-members">One Piece<span>748 members</span></p>
+                        </div>
+
+                        <div class="follow flex-center">
+                            <button class="flex-center">FOLLOW</button>
+                            <i class="material-icons">notifications_active</i>
+                        </div>
+                    </div><!-- detail -->
+
+                    <div class="sub-nav flex">
+                        <div class="btna effect-1"><a href="group-seasons.html">Seasons</a></div>
+                        <div class="btna effect-1"><a href="group-members.html">Members</a></div>
+                        <div class="btna effect-1"><a href="group-posts.html">Posts</a></div>
+                        <div class="btna effect-1"><a href="group-reviews.html">Reviews</a></div>
+                        <div class="btna effect-1"><a href="group-news.html">News</a></div>
+                        <div class="btna effect-1"><a href="group-about.html">About</a></div>
+                    </div>
+
+                </div> <!-- cover -->
+
+            </div><!-- container -->
+        </div> <!-- upper-background -->
+
+
+
+
+        <div class="filter container flex">
+            <h1>Reviews</h1>
+            <div class="color-bg flex-center">
+                <div class="cronology columns-2 flex-center">
+                    <a href="#">Latest</a>
+                    <a href="#">Popular</a>
+                </div>
+            </div>
+            <div class="container-dropdown">
+        
+                <div class="select-box">
+                    <div class="options-container">
+
+                        <div class="option">
+                            <input type="radio" class="radio" id="onePiece" name="anime">
+                            <label for="onePiece">One Piece</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" class="radio" id="onePieceFilmZ" name="anime">
+                            <label for="onePiece">One Piece Film Z</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" class="radio" id="onePiece3dMugiwaraChase" name="anime">
+                            <label for="onePiece">One Piece 3d: Mugiwara Chase</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" class="radio" id="onePieceMovie14" name="anime">
+                            <label for="onePiece">One Piece Movie 14</label>
+                        </div>
+                    </div>
+
+                    <div class="selected">Select Anime</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container flex-between">
+            <section class="reviews">
+                <article class="corner-box">
+                    <div class="header">
+                        <div class="flex-between">
+                            <div class="info-1 flex-center">
+                                <img src="media/profile/sanji.jpg" alt="">
+                                <div class="data">
+                                    <p>Caprioara <span>reviewed</span> One Piece <span>with 21 of 24 episodes seen</span></p>
+                                    <span>13 ian 2021 20:11</span>
+                                </div>
+                            </div>
+                            <div class="button flex flex-column">
+                                <button id="buton" onclick="like_function()" class="btn-all btn-check btn-color"><i class="material-icons">keyboard_arrow_up</i></button>
+                                <!-- <button class="btn-all btn-check btn-color"><i class="material-icons">keyboard_arrow_down</i></button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur odit voluptatum rerum obcaecati a ipsam repellendus voluptates voluptas inventore, nobis soluta rem quae numquam voluptatibus minima? Autem quis atque porro praesentium tempore alias, commodi aliquam ipsum. Quod sequi nisi culpa adipisci beatae vel, eligendi veniam, ex modi mollitia iste ab maiores. Tempora tempore magni velit, nobis accusantium doloremque libero odit labore recusandae s dolore, commodi nostrum autem sunt. Sapiente culpa odio illum.</p>
+                    </div>
+                </article>
+
+                <article class="corner-box">
+                    <div class="header">
+                        <div class="flex-between">
+                            <div class="info-1 flex-center">
+                                <img src="media/profile/chopper.png" alt="">
+                                <div class="data">
+                                    <p>Filiputa <span>reviewed</span> One Piece <span>with 12 of 24 episodes seen</span></p>
+                                    <span>13 ian 2021 20:11</span>
+                                </div>
+                            </div>
+                            <div class="button flex flex-column">
+                                <button id="buton1" onclick="like_function()" class="btn-all btn-check btn-color"><i class="material-icons">keyboard_arrow_up</i></button>
+                                <!-- <button class="btn-all btn-check btn-color"><i class="material-icons">keyboard_arrow_down</i></button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur odit voluptatum rerum obcaecati a ipsam repellendus voluptates voluptas inventore, nobis soluta rem quae numquam voluptatibus minima? Autem quis atque porro praesentium tempore alias, commodi aliquam ipsum. Quod sequi nisi culpa adipisci beatae vel, eligendi veniam, ex modi mollitia iste ab maiores. Tempora tempore magni velit, nobis accusantium doloremque libero odit labore recusandae s dolore, commodi nostrum autem sunt. Sapiente culpa odio illum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, voluptatum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam recusandae nam animi modi dolore officia!</p>
+                    </div>
+                </article>
+
+                <article class="corner-box">
+                    <div class="header">
+                        <div class="flex-between">
+                            <div class="info-1 flex-center">
+                                <img src="media/profile/nami.webp" alt="">
+                                <div class="data">
+                                    <p>Garbielu Nebunu <span>reviewed</span> One Piece Film Z <span>with all episodes seen</span></p>
+                                    <span>14 feb 2021 13:51</span>
+                                </div>
+                            </div>
+                            <div class="button flex flex-column">
+                                <button id="buton2" onclick="like_function()" class="btn-all btn-check btn-color"><i class="material-icons">keyboard_arrow_up</i></button>
+                                <!-- <button class="btn-all btn-check btn-color"><i class="material-icons">keyboard_arrow_down</i></button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur odit voluptatum rerum obcaecati a ipsam repellendus voluptates voluptas inventore, nobis soluta rem quae numquam voluptatibus minima? Autem quis atque porro praesentium tempore alias, commodi aliquam ipsum. Quod sequi nisi culpa </p>
+                    </div>
+                </article>
+            </section>
+
+            <aside class="episode-review">
+                <article class="corner-box">
+                    <h3 class="">Episode Review</h3>
+                    <div class="content"> <!-- 10 img ca sa acopere i img intreaga -->
+                        <p class="episode">Episode 958<span>One Piece</span></p>
+                        <p class="episode">Episode 957<span>One Piece</span></p>
+                        <p class="episode">Episode 956<span>One Piece</span></p>
+                        <p class="episode">Episode 955<span>One Piece</span></p>
+                        <p class="episode">Episode 954<span>One Piece</span></p>
+                        <p class="episode">Episode 953<span>One Piece</span></p>
+                        <p class="episode">Episode 952<span>One Piece</span></p>
+                        <p class="episode">Episode 951<span>One Piece</span></p>
+                        <p class="episode">Episode 950<span>One Piece</span></p>
+                        <p class="episode">Episode 949<span>One Piece</span></p>
+                    </div>
+                    <button class="btn-all btn">See More</button>
+                </article>
+            </aside>
+        </div>
+            
+
+        
+
+
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="js/dropdown.js"></script>
+    <script src="js/likebutton.js"></script>
+
+</body>
+
+</html>

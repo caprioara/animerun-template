@@ -1,0 +1,33 @@
+body {
+    background-color: #272b30;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.ajutor1 {
+    height: 50px;
+    background-color: #242526;
+    border-bottom: 1px solid black;
+}
+
+.image-cover {
+    max-height: 390px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
+.profile {
+    background-color: #18191A;
+    height: 510px;
+}
+
+.container {
+    width:90%;
+    max-width: 900px;
+    margin: 0 auto;
+}

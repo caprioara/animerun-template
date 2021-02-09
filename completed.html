@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>User Profile</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <main>
+        <div class="upper-background">
+            <div class="container-background">
+                <div class="background">
+                    <img src="media/background1.jpg" alt="" class="profile-background-image">
+                    <img src="media/profile1.jpg" alt="" class="profile-background-icon">
+                </div> <!-- background -->
+
+                <div class="about-profile-info">
+                    <div class="name">
+                        <h2>Caprioara</h2>
+                    </div>
+                    <div class="status">
+                        <h3>watching <span>Naruto Shippuden</span></h3>
+                    </div>
+                    <div class="about">
+                        <p>Aceasta este locul unde utilizatorul va avea o mica descriere despre preferinte, hobbiurile
+                            pe care le are sau alte lucruri care pot ajuta creearea de legaturi intre utilizatori.
+                            Multumesc pentru timpul acordat in aceasta prezentare. O zi frumoasa va doresc.</p>
+                    </div>
+                </div> <!-- about-profile-info -->
+            </div> <!-- container -->
+        </div> <!-- upper-background -->
+
+        <div class="container">
+            <div class="profile-detail container-flex">
+                <div class="sub-nav">
+                    <ul class="sub-nav-link">
+                        <li class="nav-link-item"><a class="link-decoration" href="#">List</a></li>
+                        <li class="nav-link-item"><a class="link-decoration" href="#">Activity</a></li>
+                        <li class="nav-link-item"><a class="link-decoration" href="#">Social</a></li>
+                    </ul>
+                </div>
+
+                <div class="icon-nav">
+                    <ul class="icon-nav-link">
+                        <li class="nav-link-item"><a class="link-decoration" href="#"><i class="material-icons"
+                                    id="action-button">chat</i></a></li>
+                        <li class="nav-link-item"><a class="link-decoration" href="#"><i class="material-icons"
+                                    id="action-button">person_add_alt_1</i></a></li>
+                        <!-- <li class="nav-link-item"><a class="link-decoration" href="#"><i class="material-icons" id="action-button">person</i></a></li> -->
+                    </ul>
+                </div>
+
+                <div class="status-bar">
+                    <div id="plan-to-watch">
+                        <p>10</p>
+                    </div>
+                    <div id="completed">
+                        <p>14</p>
+                    </div>
+                    <div id="watching">
+                        <p>5</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="anime-list-container">
+                <div class="anime-list-nav">
+                    <ul class="anime-list-sub-nav">
+                        <li class="nav-link-item"><a class="link-decoration" href="watching.html">Watching</a></li>
+                        <li class="nav-link-item"><a class="link-decoration" href="completed.html">Completed</a></li>
+                        <li class="nav-link-item"><a class="link-decoration" href="plantowatch.html">Plan to Watch</a></li>
+                        <li class="nav-link-item"><a class="link-decoration" href="history.html">History</a></li>
+                    </ul>
+                </div>
+                <div class="anime-list">
+                    <div class="anime-item-header distance-box-1">
+                        <div class="anime-item-id">ID</div>
+                        <div class="anime-item-img">Imagine</div>
+                        <div class="anime-item-name">Title</div>
+                        <div class="anime-item-studio">Studio</div>
+                        <div class="anime-item-episode">Episodes</div>
+                        <div class="anime-item-score">Score</div>
+                        <div class="anime-item-action">Action</div>
+                    </div>
+
+                    <div class="anime-item distance-box-1">
+                        <div class="anime-item-id">1</div>
+                        <div class="anime-item-img"><a href=""><img src="media/icon2.jpg" alt="One Piece"></a></div>
+                        <div class="anime-item-name"><a href="">One Piece</a></div>
+                        <div class="anime-item-studio"><a href="">Studio</a></div>
+                        <div class="anime-item-episode"><a href="">24</a></div>
+                        <div class="anime-item-score">
+                            <div class="dropdown-select">
+                                <select>
+                                    <option value="0">-</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="anime-item-action container-flex">
+                            <a href=""><i class="material-icons" id="action-button">share</i></a>
+                            <a href=""><i class="material-icons" id="action-button">info</i></a>
+                            <a href=""><i class="material-icons" id="action-button">delete</i></a>
+                        </div>
+                    </div>
+
+                    <div class="anime-item distance-box-1">
+                        <div class="anime-item-id">2</div>
+                        <div class="anime-item-img"><img src="media/icon1.jpg" alt="Naruto Shippuden"></div>
+                        <div class="anime-item-name">Naruto Shippuden</div>
+                        <div class="anime-item-studio">Studio</div>
+                        <div class="anime-item-episode">24</div>
+                        <div class="anime-item-score">7</div>
+                        <div class="anime-item-action container-flex">
+                            <i class="material-icons" id="action-button">share</i>
+                            <i class="material-icons" id="action-button">info</i>
+                            <i class="material-icons" id="action-button">delete</i>
+                        </div>
+                    </div>
+
+                    <div class="anime-item distance-box-1">
+                        <div class="anime-item-id">3</div>
+                        <div class="anime-item-img"><img src="media/icon3.jpg" alt="World Trigger"></div>
+                        <div class="anime-item-name">World Trigger</div>
+                        <div class="anime-item-studio">Studio</div>
+                        <div class="anime-item-episode">73</div>
+                        <div class="anime-item-score">8</div>
+                        <div class="anime-item-action container-flex">
+                            <i class="material-icons" id="action-button">share</i>
+                            <i class="material-icons" id="action-button">info</i>
+                            <i class="material-icons" id="action-button">delete</i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!-- container -->
+
+    </main>
+
+    <footer>
+        <div class="copy-right">AnimeRun.ro is a property of WebForge &copy;2021 All Right Reserved</div>
+    </footer>
+
+</body>
+
+</html>
