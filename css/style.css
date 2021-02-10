@@ -570,7 +570,8 @@ a {
     margin: 0.5em 1em;
 }
 
-.news .info a {
+.news .info a,
+.news .info p {
     text-align: justify;
 }
 
@@ -619,7 +620,7 @@ a {
     width: 25%;
 }
 
-.posts .social a {
+.social a {
     color: var(--clr-lightgrey);
     font-size: 0.85rem;
     margin: 0.5em 0 0.5em 1em;
@@ -627,11 +628,11 @@ a {
     border-radius: var(--br);
 }
 
-.posts .social a:hover {
+.social a:hover {
     background-color: var(--clr-dark6);
 }
 
-.posts .social i {
+.social i {
     margin-right: 0.325em;
 }
 
@@ -639,11 +640,22 @@ a {
     transform: rotateY(180deg);
 
 }
-
-.posts .social a {
+.social a {
     font-weight: 700;
 }
 
+/* Comment */
+
+.comment {
+    font-size: 0.9rem;
+    margin: 0 1em;
+    color: var(--clr-light);
+    text-align: justify;
+}
+
+.comment_left {
+    margin-left: 4.5em;
+}
 /* Status  */
 
 .on {
@@ -672,5 +684,3 @@ a {
 .mb {
     margin-bottom: 0.75em;
 }
-
-
