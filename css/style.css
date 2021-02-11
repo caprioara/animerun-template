@@ -685,7 +685,21 @@ a {
     resize: none;
 }
 
-.
+.replay-comment_form {
+    /* display: none; */
+    padding-top: 0.5em;
+}
+
+.replay-comment_form textarea{
+    margin: 0 1.25em;
+    background-color: var(--clr-light);
+    border: 1px solid var(--clr-light);
+    border-radius: 0.325em;
+    outline: none;
+    overflow: auto;
+    resize: none;
+}
+
 /* Test  */
 
 .br {
